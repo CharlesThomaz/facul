@@ -4,11 +4,15 @@ body {
     text-align: center ;    
 }
 
-img{
-    width: 80%;
-    border-radius: 10px ;
-/*     filter: blur(4px); */
-
-    filter:grayscale(100%)
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Glass Antiqua', cursive;
 }
 
+div{
+width: 50%;
+height: auto;
+background-color: gray;
+}
