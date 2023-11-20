@@ -1,21 +1,36 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Catamaran', sans-serif;
-    font-family: 'Glass Antiqua', cursive;
-}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;}
 
+/* 
 div{
-width: 80%;
-height: 600px;
+width: 90%;
+height: 80px;
 margin: 20px auto;
-background-image:url(../images/pexels-benjamin-suter-3617500\ \(1\).jpg) ;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: 50% ;
-background-attachment: fixed;
+padding: 10px;
+box-sizing: border-box;
+border: 1px solid #DC143C;
 }
 
+#conteudo {
+background-color: #DC143C;
+color: #fff;
+text-align: center;
 
+} */
 
+.container{
+width: 300px;
+height: 50px;
+margin: 10px ;
+padding: 10px;
+border: 1px solid #000000;
+color: #ffffff;
+text-align: center;
 
+}
+.bg-blue{ background-color: #369;}
+.bg-red{ background-color: #900;}
+.bg-green{ background-color: #090;}
