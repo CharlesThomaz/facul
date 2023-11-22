@@ -4,28 +4,20 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;}
 
+    html{
+        font-size: 20px;
+    }
+
     .container{
-        width: 100%;
-        font-size: 100px;
+        width: 80%;
+        margin: 20px auto;
+/*         font-size: 30px ;
+ */
     }
-
-    .container-1{
-        background-color: #ccc;
-        height: 100vh;
-        font-size: 10vmin;
-
-
-
+    .box{
+       /*  font-size: 25px;
+    } */}
+    .box p{
+        font-size: 5rem;
     }
-    .container-2{
-        background-color: #aaa;
-        height: 100vh;
-        font-size: 10vmax;
-
-
-    }
-    .container-3{
-        background-color: #666;
-        height: 100vh;
-
-    }
+    
