@@ -4,14 +4,23 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;}
 
-   
-    .container{
-        width: 80%;
-        margin: 20px auto;
-        text-align: center;
-    }
 
-    .icon{
-        font-size: 80px;
-        color: #dc1;
-    }
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+    min-height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+   
+.box{
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    background-color: #f4f4;
+ 
+}
+
