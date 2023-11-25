@@ -12,8 +12,7 @@
     min-height: 600px;
     border: 1px solid black;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+   
 }
    
 .box{
@@ -21,6 +20,33 @@
     height: 150px;
     margin: 20px;
     background-color: #f4f4;
+    
+
  
 }
+.box:hover{
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    background-color:#000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #c14;
+ 
+}
+
+.menu{
+    text-align: center;
+    color: antiquewhite;
+    background-color: #c14;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
 
