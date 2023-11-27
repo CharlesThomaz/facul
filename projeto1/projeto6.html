@@ -31,7 +31,7 @@
         <div class="box">
             <h2>Preencha seus dados</h2>
 
-            <form id="dados" name="dados" method="post" action="">
+            <form id="dados" name="dados" method="post" action="" class="form">
 
                 <div class="box-for-item">
                     <label for="nome">Nome</label>
@@ -68,26 +68,55 @@
                 
                 </div>
               
+                
                 <div class="box-for-item">
-                    <label for="email">Email</label>
-                    <i class="fa-regular fa-envelope icon"></i>
-                    <input type="email" placeholder="Ex: fulano@email.com " id="email" name="email" required>
+                    <label for="dataNascimento">Data de Nascimento</label>
+                    <i class="fa-solid fa-cake-candles icon"></i>
+                    <input type="date"  id="dataNascimento" name="dataNascimento" required>
+                    
+                </div>
+                
+                <div class="box-for-item">
+                    <label > Tipo de conta</label>
+                    <div class="box-for-radio">
+                        <div class="radio">                    
+                        <input type="radio"  id="conta1" name="conta" >
+                        <label for="conta1">Free</label>
+                    </div>
+
+                <div class="box-for-item">
+                    <div class="box-for-radio">
+                        <div class="radio">                    
+                        <input type="radio"  id="conta2" name="conta" >
+                        <label for="conta2">Gold</label>
+                    </div>
+
+                <div class="box-for-item">
+                    <div class="box-for-radio">
+                        <div class="radio">                    
+                        <input type="radio"  id="conta3" name="conta" >
+                        <label for="conta3">Premium</label>
+                    </div>
                 
                 </div>
 
+            <div class="box-form-item">
+                <label for="" class="select">Área de atuação</label>
+                <select name="area" id="area">
+                    <option value="0" disabled selected>Selecione sua opção</option>
+                    <option value="1">Área 01</option>
+                    <option value="2">Área 02</option>
+                    <option value="3">Área 03</option>
+                    <option value="4">Área 04</option>
+                </select>
+            </div>    
 
-
-
+            <div class="box-form-button">
+                <button type="submit">Criar conta <i class="fa-regular fa-circle-right arrow"></i></button>
+            </div>
             </form>
-
-
         </div>
-
-
-
     </div>
-
-
-    
+   
 </body>
 </html>
