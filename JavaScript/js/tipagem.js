@@ -19,4 +19,22 @@ console.log(nome);
 console.log(email);
 console.log(idade);
 console.log(logado);
+console.log(typeof logado);
+
+const DATA_NASCIMENTO = '29-01-1987';
+console.log(DATA_NASCIMENTO);
+
+let novonome = 'thomaz';
+console.log(novonome);
+
+
+let valorInicial = true;
+console.log(valorInicial, typeof(valorInicial));
+
+valorInicial = String(valorInicial);
+console.log(valorInicial, typeof(valorInicial));
+
+
+
+
 
